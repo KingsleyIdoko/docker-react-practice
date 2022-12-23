@@ -8,6 +8,6 @@ before_install:
 
 
 script:
-  - docker run  kingsleyidoko/docker-react npm run test -- --coverage
+  - docker run  kingsleyidoko/docker-react:latest npm run test -- --coverage
 
 language: generic
