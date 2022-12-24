@@ -8,7 +8,7 @@ before_install:
 
 
 script:
-  - docker run  kingsleyidoko/docker-react:latest npm run test -- --coverage
+  - docker run -e CI=true kingsleyidoko/docker-react:latest npm run test -- --coverage
 
 language: generic
 
