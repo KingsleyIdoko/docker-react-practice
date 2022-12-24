@@ -28,9 +28,9 @@ deploy:
   on:
       branch: main
   access_key_id:
-    secure: "AKIAUTYJZOW3KS6TRYEU"
+    secure: $AWS_ACCESS_KEY
   secret_access_key:
-    secure: "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"
+    secure: $AWS_SECRET_KEYi
   region: "us-east-2"
   app: "docker-react"
   env: "Dockerreact-env"
